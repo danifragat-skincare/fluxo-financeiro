@@ -2805,7 +2805,7 @@
             "total": 10
           },
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -2817,7 +2817,7 @@
             "total": 8
           },
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -2829,7 +2829,7 @@
             "total": 3
           },
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -2841,7 +2841,7 @@
             "total": 10
           },
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -2850,7 +2850,7 @@
           "valor": 219.9,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -2859,7 +2859,7 @@
           "valor": 350,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -2868,7 +2868,7 @@
           "valor": 150,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -2877,7 +2877,7 @@
           "valor": 40,
           "parcela": null,
           "nota": "data: 01/04/2027",
-          "pago": false,
+          "pago": true,
           "recorrente": false
         }
       ]
