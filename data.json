@@ -2761,15 +2761,6 @@
           "recorrente": false
         },
         {
-          "id": "a677b7d7",
-          "nome": "Exames",
-          "valor": 715,
-          "parcela": null,
-          "nota": null,
-          "pago": false,
-          "recorrente": false
-        },
-        {
           "id": "95261ab9",
           "nome": "Claro",
           "valor": 135,
