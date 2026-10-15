@@ -1,0 +1,2972 @@
+{
+  "meta": {
+    "versao": 1,
+    "geradoEm": "2026-10-15T13:35:12.002436"
+  },
+  "recorrentes": [
+    {
+      "id": "1e11e3d9",
+      "nome": "Moto",
+      "valor": 1081,
+      "ativo": true
+    },
+    {
+      "id": "1253cade",
+      "nome": "Padaria",
+      "valor": 392,
+      "ativo": true
+    },
+    {
+      "id": "98567452",
+      "nome": "Elektro",
+      "valor": 240,
+      "ativo": true
+    },
+    {
+      "id": "9b0b4b7a",
+      "nome": "Cartão",
+      "valor": 230,
+      "ativo": true
+    },
+    {
+      "id": "94a3b88c",
+      "nome": "Edmar",
+      "valor": 219.9,
+      "ativo": true
+    },
+    {
+      "id": "956872d7",
+      "nome": "Unha",
+      "valor": 170,
+      "ativo": true
+    },
+    {
+      "id": "b304e0e4",
+      "nome": "Claro",
+      "valor": 132,
+      "ativo": true
+    },
+    {
+      "id": "0fd57cf5",
+      "nome": "Agua",
+      "valor": 50.86,
+      "ativo": true
+    }
+  ],
+  "periods": [
+    {
+      "id": "2026-01-A",
+      "mes": 1,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-01-01",
+      "label": "01/01 a 20/01",
+      "entrada": 3575,
+      "items": [
+        {
+          "id": "00141ea8",
+          "nome": "Luz",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "60e9eb3f",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "42e4ddc9",
+          "nome": "Agua",
+          "valor": 65,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "4b94ea83",
+          "nome": "Cartão",
+          "valor": 1100,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "d17209d2",
+          "nome": "Poupança",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "19282b08",
+          "nome": "Padaria",
+          "valor": 500,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "bfa8910c",
+          "nome": "Exames sangue",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "6260e033",
+          "nome": "fone",
+          "valor": 96,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "afb802bf",
+          "nome": "cartorio",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "ce59bf2b",
+          "nome": "vivo",
+          "valor": 95,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5031055c",
+          "nome": "claro",
+          "valor": 51.25,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "6a851831",
+          "nome": "BOX",
+          "valor": 155,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "3fdc83de",
+          "nome": "Sueli",
+          "valor": 100,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ec049a99",
+          "nome": "Renata",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "6360e7ea",
+          "nome": "SAMAE",
+          "valor": 46,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "af9cbc13",
+          "nome": "EDMAR",
+          "valor": 130,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-01-B",
+      "mes": 1,
+      "ano": 2026,
+      "quinzena": "B",
+      "dataInicio": "2026-01-20",
+      "label": "20/01 a 05/02",
+      "entrada": 3575,
+      "items": [
+        {
+          "id": "c02b06c7",
+          "nome": "Samae",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "53c00ed3",
+          "nome": "Elektro",
+          "valor": 161.2,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "c8837b35",
+          "nome": "Nubank",
+          "valor": 70,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "a289f133",
+          "nome": "casa",
+          "valor": 250,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "56465c64",
+          "nome": "Claro",
+          "valor": 95.93,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1951a995",
+          "nome": "Dentista",
+          "valor": 150,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "e6de43b8",
+          "nome": "Nexpresso",
+          "valor": 89,
+          "parcela": {
+            "atual": 3,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "399d88f6",
+          "nome": "Edmar",
+          "valor": 59.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "25415836",
+          "nome": "Giovana",
+          "valor": 50,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "20aa93f8",
+          "nome": "Moto",
+          "valor": 1000,
+          "parcela": null,
+          "nota": "mês 11",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "7d73ba0e",
+          "nome": "Renata",
+          "valor": 270,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "09d03360",
+          "nome": "Espelho",
+          "valor": 80,
+          "parcela": {
+            "atual": 1,
+            "total": 2
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "cf33fc67",
+          "nome": "Tiele",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "d9d5883e",
+          "nome": "Padaria",
+          "valor": 216,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-02-A",
+      "mes": 2,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-02-05",
+      "label": "05/02 a 20/02",
+      "entrada": 3575,
+      "items": [
+        {
+          "id": "0203eb01",
+          "nome": "Luz",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "82e52ad7",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "80cd3acc",
+          "nome": "Agua",
+          "valor": 56.55,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "20071ed0",
+          "nome": "Cartão",
+          "valor": 1115,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "aaf514b2",
+          "nome": "Sueli",
+          "valor": 250,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "e90c674b",
+          "nome": "Padaria",
+          "valor": 200,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5e291d30",
+          "nome": "Carro",
+          "valor": 870,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "d4a672d3",
+          "nome": "vivo",
+          "valor": 90,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5f24d261",
+          "nome": "claro",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "a36cbf0d",
+          "nome": "BOX",
+          "valor": 155,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ee53c38f",
+          "nome": "combustivel",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "961e04c9",
+          "nome": "EDMAR",
+          "valor": 130,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "15939c66",
+          "nome": "shopee",
+          "valor": 233.13,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "69306025",
+          "nome": "Academia",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-02-B",
+      "mes": 2,
+      "ano": 2026,
+      "quinzena": "B",
+      "dataInicio": "2026-02-20",
+      "label": "20/02 a 05/03",
+      "entrada": 3575,
+      "items": [
+        {
+          "id": "eda78138",
+          "nome": "Elektro",
+          "valor": 377.66,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "e745c6ca",
+          "nome": "Nubank",
+          "valor": 70,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "7cfccede",
+          "nome": "Poupança",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "07b5f992",
+          "nome": "Claro",
+          "valor": 100,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "45f3ade5",
+          "nome": "Nexpresso",
+          "valor": 89.9,
+          "parcela": {
+            "atual": 4,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ee88362a",
+          "nome": "Carro",
+          "valor": 590,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "0c1d9f86",
+          "nome": "Giovana",
+          "valor": 50,
+          "parcela": {
+            "atual": 1,
+            "total": 6
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1598e951",
+          "nome": "Moto",
+          "valor": 1000,
+          "parcela": null,
+          "nota": "mês 12",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "af7de914",
+          "nome": "Padaria",
+          "valor": 286,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "fe3cf6d9",
+          "nome": "Espelho",
+          "valor": 80,
+          "parcela": {
+            "atual": 2,
+            "total": 2
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "8152dead",
+          "nome": "Giovana",
+          "valor": 70,
+          "parcela": {
+            "atual": 5,
+            "total": 6
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "554794df",
+          "nome": "Total Pass",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-03-A",
+      "mes": 3,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-03-05",
+      "label": "05/03 a 20/03",
+      "entrada": 3275,
+      "items": [
+        {
+          "id": "8576f3ce",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "89122f7e",
+          "nome": "Agua",
+          "valor": 42.4,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5e4cb730",
+          "nome": "Cartão",
+          "valor": 1016.41,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "c642cba8",
+          "nome": "Netflix",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": "mudar pro cartão porto",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "4df4e990",
+          "nome": "Padaria",
+          "valor": 200,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1f7c1ad8",
+          "nome": "Elektro",
+          "valor": 161.66,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "219c9a06",
+          "nome": "Renata",
+          "valor": 160,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "10f0132f",
+          "nome": "Tenis",
+          "valor": 186,
+          "parcela": {
+            "atual": 1,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1e0001e6",
+          "nome": "FERRO E D",
+          "valor": 79,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "565e8139",
+          "nome": "Vermifugo",
+          "valor": 140.45,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "7f7ce1e2",
+          "nome": "vivo",
+          "valor": 90,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "45b06a85",
+          "nome": "claro",
+          "valor": 70.52,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "b7c97984",
+          "nome": "BOX",
+          "valor": 155,
+          "parcela": null,
+          "nota": "até maio",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "2866f119",
+          "nome": "Edmar",
+          "valor": 130,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5513290a",
+          "nome": "Exames",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "4e11aa30",
+          "nome": "copo",
+          "valor": 75,
+          "parcela": {
+            "atual": 1,
+            "total": 8
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "cf0306fc",
+          "nome": "shopee",
+          "valor": 195.41,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "a1651634",
+          "nome": "Ração+Areia",
+          "valor": 120,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-03-B",
+      "mes": 3,
+      "ano": 2026,
+      "quinzena": "B",
+      "dataInicio": "2026-03-20",
+      "label": "20/03 a 05/04",
+      "entrada": 3575,
+      "items": [
+        {
+          "id": "ae769d2e",
+          "nome": "Elektro",
+          "valor": 180,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "907cb7f2",
+          "nome": "Nubank",
+          "valor": 140,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "2a5c08a1",
+          "nome": "meu niver japa",
+          "valor": 200,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "00348fcd",
+          "nome": "Claro",
+          "valor": 100,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "c5e69b52",
+          "nome": "IPVA",
+          "valor": 82.21,
+          "parcela": {
+            "atual": 1,
+            "total": 11
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "e0b92436",
+          "nome": "Nexpresso",
+          "valor": 89.9,
+          "parcela": {
+            "atual": 5,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "edb85d4b",
+          "nome": "Mamografia",
+          "valor": 195,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "bd3c902e",
+          "nome": "Giovana",
+          "valor": 50,
+          "parcela": {
+            "atual": 2,
+            "total": 6
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "32563e61",
+          "nome": "Giovana",
+          "valor": 50,
+          "parcela": {
+            "atual": 6,
+            "total": 6
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "7fa789dd",
+          "nome": "Moto",
+          "valor": 1080,
+          "parcela": null,
+          "nota": "mês 01",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "9fcad76a",
+          "nome": "Tiele",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "b4427cdd",
+          "nome": "Samae",
+          "valor": 44.41,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "dc3c0bfe",
+          "nome": "total pass",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5da5bbb0",
+          "nome": "Vivo",
+          "valor": 59,
+          "parcela": null,
+          "nota": "13",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "e08117f9",
+          "nome": "acordo santander",
+          "valor": 10,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-04-A",
+      "mes": 4,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-04-05",
+      "label": "05/04 a 20/04",
+      "entrada": 3575,
+      "items": [
+        {
+          "id": "6c946756",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "3b93a616",
+          "nome": "Agua",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "749f18c3",
+          "nome": "Cartão",
+          "valor": 1000,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "7996d9c5",
+          "nome": "Netflix",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "9ddf305c",
+          "nome": "Padaria",
+          "valor": 200,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "868636f6",
+          "nome": "Copo",
+          "valor": 75,
+          "parcela": {
+            "atual": 2,
+            "total": 8
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "14570456",
+          "nome": "tenis",
+          "valor": 186,
+          "parcela": {
+            "atual": 2,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "b102af30",
+          "nome": "Gerusa",
+          "valor": 500,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "7ad068ab",
+          "nome": "remedio",
+          "valor": 180,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "f82da226",
+          "nome": "vivo",
+          "valor": 95,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5eb6c122",
+          "nome": "claro",
+          "valor": 51.25,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "dd357e86",
+          "nome": "BOX",
+          "valor": 155,
+          "parcela": null,
+          "nota": "até maio",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1eafaa40",
+          "nome": "edmar",
+          "valor": 130,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "7d50d307",
+          "nome": "ração e areia",
+          "valor": 120,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1735d931",
+          "nome": "shopee",
+          "valor": 230,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "aa61cdba",
+          "nome": "meu niver",
+          "valor": 400,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-04-B",
+      "mes": 4,
+      "ano": 2026,
+      "quinzena": "B",
+      "dataInicio": "2026-04-20",
+      "label": "20/04 a 05/05",
+      "entrada": 3575,
+      "items": [
+        {
+          "id": "189d2380",
+          "nome": "Elektro",
+          "valor": 240,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5055d3e0",
+          "nome": "Nubank",
+          "valor": 96,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1a92e53e",
+          "nome": "Claro",
+          "valor": 100,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "06ec5464",
+          "nome": "Nexpresso",
+          "valor": 89.9,
+          "parcela": {
+            "atual": 6,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "dfc037a2",
+          "nome": "Total pass",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "f8155636",
+          "nome": "Giovana",
+          "valor": 50,
+          "parcela": {
+            "atual": 3,
+            "total": 6
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "4e7a2b86",
+          "nome": "Moto",
+          "valor": 1060,
+          "parcela": null,
+          "nota": "mês 02",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "a8b6a577",
+          "nome": "Agua",
+          "valor": 65,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "54991fb8",
+          "nome": "shopee",
+          "valor": 230,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "950907d5",
+          "nome": "vivo",
+          "valor": 100,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "4f07de7a",
+          "nome": "ração e areia",
+          "valor": 120,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-05-A",
+      "mes": 5,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-05-05",
+      "label": "05/05 a 20/05",
+      "entrada": 3575,
+      "items": [
+        {
+          "id": "020e2cff",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "849ae2d8",
+          "nome": "Agua",
+          "valor": 70,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "a69063de",
+          "nome": "Cartão",
+          "valor": 1102.02,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "2218e36a",
+          "nome": "Netflix",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "a1a166fb",
+          "nome": "Padaria",
+          "valor": 280,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "0608f033",
+          "nome": "Total Pass",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "2b1f5d55",
+          "nome": "Tenis",
+          "valor": 186,
+          "parcela": {
+            "atual": 3,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "dd6ceec5",
+          "nome": "Copo",
+          "valor": 75,
+          "parcela": {
+            "atual": 3,
+            "total": 8
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "66d136a2",
+          "nome": "Monjaro",
+          "valor": 899,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "4e712c28",
+          "nome": "vivo",
+          "valor": 123,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "2a292dfd",
+          "nome": "Box",
+          "valor": 155,
+          "parcela": null,
+          "nota": "ultima",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "0d90f0a5",
+          "nome": "Edmar",
+          "valor": 219.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ab5f9f29",
+          "nome": "Mara",
+          "valor": 59.9,
+          "parcela": {
+            "atual": 1,
+            "total": 2
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "a7a803f8",
+          "nome": "Shopee",
+          "valor": 330,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ca85f71c",
+          "nome": "Ração+Areia",
+          "valor": 100,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "cfcf15bf",
+          "nome": "ksinha",
+          "valor": 40,
+          "parcela": null,
+          "nota": "data: 01/04/2027",
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-05-B",
+      "mes": 5,
+      "ano": 2026,
+      "quinzena": "B",
+      "dataInicio": "2026-05-20",
+      "label": "20/05 a 05/06",
+      "entrada": 3575,
+      "items": [
+        {
+          "id": "57559cf1",
+          "nome": "Cartão",
+          "valor": 1103,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "39bf3ecd",
+          "nome": "Chat",
+          "valor": 33.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "50a14ed7",
+          "nome": "Nubank",
+          "valor": 40,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "f05e25fb",
+          "nome": "Elektro",
+          "valor": 237.71,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "7c301674",
+          "nome": "Claro",
+          "valor": 96,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "94645650",
+          "nome": "IPVA",
+          "valor": 95,
+          "parcela": null,
+          "nota": "2",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "e111dc43",
+          "nome": "Nexpresso",
+          "valor": 89,
+          "parcela": {
+            "atual": 7,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "6d5f4d9d",
+          "nome": "applewatch",
+          "valor": 270,
+          "parcela": {
+            "atual": 1,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "635b25c9",
+          "nome": "Giovana",
+          "valor": 50,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "c73b4662",
+          "nome": "Giovana",
+          "valor": 54,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "393b28a6",
+          "nome": "Moto",
+          "valor": 1062,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "cc7c45ef",
+          "nome": "remedios",
+          "valor": 200,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "d652113b",
+          "nome": "Padaria",
+          "valor": 300,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "bed77c70",
+          "nome": "poupança",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-06-A",
+      "mes": 6,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-06-05",
+      "label": "05/06 a 20/06",
+      "entrada": 3577,
+      "items": [
+        {
+          "id": "001306d0",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "a6373905",
+          "nome": "Agua",
+          "valor": 70,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5d4176c3",
+          "nome": "Cartão",
+          "valor": 1000,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "611fc195",
+          "nome": "Netflix",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "37b2377c",
+          "nome": "Padaria",
+          "valor": 200,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "354a97bd",
+          "nome": "Elektro",
+          "valor": 237.71,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "fd5825bc",
+          "nome": "marmitas",
+          "valor": 255,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "11a74606",
+          "nome": "Tenis",
+          "valor": 186,
+          "parcela": {
+            "atual": 4,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "b173c97d",
+          "nome": "Copo",
+          "valor": 75,
+          "parcela": {
+            "atual": 4,
+            "total": 8
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "0b3f5673",
+          "nome": "médico",
+          "valor": 750,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "db2be841",
+          "nome": "vivo",
+          "valor": 100,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "333999f1",
+          "nome": "claro",
+          "valor": 50,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "29c0e230",
+          "nome": "Edmar",
+          "valor": 219.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "a935058b",
+          "nome": "Mara",
+          "valor": 59.9,
+          "parcela": {
+            "atual": 2,
+            "total": 2
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "782efaa6",
+          "nome": "Mara",
+          "valor": 89.9,
+          "parcela": {
+            "atual": 1,
+            "total": 2
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "f1e18a4f",
+          "nome": "Ração+Areia",
+          "valor": 60,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "3efb4853",
+          "nome": "Ksinha",
+          "valor": 40,
+          "parcela": null,
+          "nota": "data: 01/04/2027",
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-06-B",
+      "mes": 6,
+      "ano": 2026,
+      "quinzena": "B",
+      "dataInicio": "2026-06-20",
+      "label": "20/06 a 05/07",
+      "entrada": 3577,
+      "items": [
+        {
+          "id": "474dcf0c",
+          "nome": "Chat",
+          "valor": 33.9,
+          "parcela": null,
+          "nota": "ok",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "18f87a7e",
+          "nome": "Nubank",
+          "valor": 50,
+          "parcela": {
+            "atual": 2,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "2f634438",
+          "nome": "TG",
+          "valor": 900,
+          "parcela": null,
+          "nota": "pg",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5efbc73f",
+          "nome": "Agua",
+          "valor": 105,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "b4aa24d0",
+          "nome": "APPLE",
+          "valor": 270,
+          "parcela": {
+            "atual": 2,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ba7f9675",
+          "nome": "Nexpresso",
+          "valor": 89.9,
+          "parcela": {
+            "atual": 8,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "d6ed84c4",
+          "nome": "Giovana",
+          "valor": 50,
+          "parcela": {
+            "atual": 5,
+            "total": 6
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "d52b9db2",
+          "nome": "Padaria",
+          "valor": 250,
+          "parcela": null,
+          "nota": "pg",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "57a1c0b8",
+          "nome": "Moto",
+          "valor": 1081,
+          "parcela": null,
+          "nota": "pg",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ee28be80",
+          "nome": "Paçoca",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "d9e0bfed",
+          "nome": "Mara",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-07-A",
+      "mes": 7,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-07-05",
+      "label": "05/07 a 20/07",
+      "entrada": 3577,
+      "items": [
+        {
+          "id": "cddb441e",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "542aa669",
+          "nome": "Agua",
+          "valor": 50.86,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "9ac5adac",
+          "nome": "Cartão",
+          "valor": 140,
+          "parcela": {
+            "atual": 1,
+            "total": 12
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "c49d7b6b",
+          "nome": "Netflix",
+          "valor": 85.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "b5516e62",
+          "nome": "Padaria",
+          "valor": 300,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "fbc1511e",
+          "nome": "Elektro",
+          "valor": 240.52,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "6d6929c5",
+          "nome": "Castrar paçoca",
+          "valor": 100,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "786b917d",
+          "nome": "Tenis",
+          "valor": 186,
+          "parcela": {
+            "atual": 5,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "88ee7e88",
+          "nome": "Copo",
+          "valor": 75,
+          "parcela": {
+            "atual": 5,
+            "total": 8
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "9f7e6353",
+          "nome": "médico",
+          "valor": 450,
+          "parcela": null,
+          "nota": "data: 15/07/2026",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ab821781",
+          "nome": "Laura",
+          "valor": 150,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "df531f77",
+          "nome": "vitaminas",
+          "valor": 128,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ee0fefa6",
+          "nome": "Edmar",
+          "valor": 219.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "cc95f383",
+          "nome": "Mara",
+          "valor": 89.9,
+          "parcela": {
+            "atual": 2,
+            "total": 2
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "3d229a19",
+          "nome": "Mara",
+          "valor": 100,
+          "parcela": {
+            "atual": 1,
+            "total": 3
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "35c51150",
+          "nome": "Ração+Areia",
+          "valor": 60,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "dc721d0e",
+          "nome": "Ksinha",
+          "valor": 40,
+          "parcela": null,
+          "nota": "data: 01/04/2027",
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-07-B",
+      "mes": 7,
+      "ano": 2026,
+      "quinzena": "B",
+      "dataInicio": "2026-07-20",
+      "label": "20/07 a 05/08",
+      "entrada": 4042,
+      "items": [
+        {
+          "id": "e13ccb74",
+          "nome": "Chat",
+          "valor": 33.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "77c14790",
+          "nome": "HBO",
+          "valor": 40,
+          "parcela": {
+            "atual": 2,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "a1b12c20",
+          "nome": "pousada",
+          "valor": 220,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "0ed46293",
+          "nome": "APPLE",
+          "valor": 270,
+          "parcela": {
+            "atual": 3,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "2ccdfc54",
+          "nome": "Nexpresso",
+          "valor": 89.9,
+          "parcela": {
+            "atual": 10,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "53e14567",
+          "nome": "Giovana",
+          "valor": 50,
+          "parcela": {
+            "atual": 6,
+            "total": 6
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "9fb80703",
+          "nome": "Ração e Areia",
+          "valor": 175,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "e754490f",
+          "nome": "Moto",
+          "valor": 1081,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "95b1b40e",
+          "nome": "exames",
+          "valor": 900,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "00b454c0",
+          "nome": "Mercado",
+          "valor": 500,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "64bd90f3",
+          "nome": "Padaria",
+          "valor": 300,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "79b0f7da",
+          "nome": "Cartão",
+          "valor": 130,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-08-A",
+      "mes": 8,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-08-05",
+      "label": "05/08 a 20/08",
+      "entrada": 3577,
+      "items": [
+        {
+          "id": "ea40320e",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "0c308f17",
+          "nome": "Agua",
+          "valor": 50.86,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "b93ca290",
+          "nome": "Cartão",
+          "valor": 356,
+          "parcela": {
+            "atual": 1,
+            "total": 12
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "4c722997",
+          "nome": "Netflix",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "bcda530e",
+          "nome": "Padaria",
+          "valor": 386,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "9cc79bdf",
+          "nome": "Elektro",
+          "valor": 240.52,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5027cce4",
+          "nome": "Tenis",
+          "valor": 186,
+          "parcela": {
+            "atual": 6,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "07738802",
+          "nome": "Copo",
+          "valor": 75,
+          "parcela": {
+            "atual": 6,
+            "total": 8
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "b4d35eb1",
+          "nome": "Exames Ge2",
+          "valor": 500,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "76d621bc",
+          "nome": "Perfume",
+          "valor": 99,
+          "parcela": {
+            "atual": 1,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "9a4e8b7f",
+          "nome": "Edmar",
+          "valor": 219.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "9cf20b0e",
+          "nome": "Mercado",
+          "valor": 500,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "904632e4",
+          "nome": "Mara",
+          "valor": 100,
+          "parcela": {
+            "atual": 2,
+            "total": 3
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "28cc9637",
+          "nome": "Ração+Areia",
+          "valor": 150,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "9bb6d1dc",
+          "nome": "Ksinha",
+          "valor": 40,
+          "parcela": null,
+          "nota": "data: 01/04/2027",
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-08-B",
+      "mes": 8,
+      "ano": 2026,
+      "quinzena": "B",
+      "dataInicio": "2026-08-20",
+      "label": "20/08 a 05/09",
+      "entrada": 3577,
+      "items": [
+        {
+          "id": "93694fc5",
+          "nome": "Chat",
+          "valor": 33.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1674bf7d",
+          "nome": "HBO",
+          "valor": 35,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "d3f2a7b1",
+          "nome": "Elektro",
+          "valor": 265,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ad4858ef",
+          "nome": "samae",
+          "valor": 60,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "88ca7597",
+          "nome": "APPLE",
+          "valor": 270,
+          "parcela": {
+            "atual": 4,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1932e28f",
+          "nome": "Socorro",
+          "valor": 500,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "cccacf09",
+          "nome": "Total Pass",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "0dddab53",
+          "nome": "Mercado",
+          "valor": 500,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "8475713b",
+          "nome": "Padaria",
+          "valor": 392,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "8058a11f",
+          "nome": "Moto",
+          "valor": 1062,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1c1e80a8",
+          "nome": "Ração e areia",
+          "valor": 140,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-09-A",
+      "mes": 9,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-09-05",
+      "label": "05/09 a 20/09",
+      "entrada": 3577,
+      "items": [
+        {
+          "id": "0b56c88b",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "0400ade3",
+          "nome": "Agua",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "a6482555",
+          "nome": "Cartão",
+          "valor": 230,
+          "parcela": {
+            "atual": 2,
+            "total": 12
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "98306338",
+          "nome": "Netflix",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "44f5b4db",
+          "nome": "Renata",
+          "valor": 180,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1ba58749",
+          "nome": "Elektro",
+          "valor": null,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "10a0553c",
+          "nome": "Claro",
+          "valor": 135,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "fca42911",
+          "nome": "Tenis",
+          "valor": 186,
+          "parcela": {
+            "atual": 7,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5ee54095",
+          "nome": "Copo",
+          "valor": 75,
+          "parcela": {
+            "atual": 7,
+            "total": 8
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "e4d1a8bf",
+          "nome": "Re Cartão",
+          "valor": 480,
+          "parcela": {
+            "atual": 1,
+            "total": 3
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "03b8168b",
+          "nome": "Perfume",
+          "valor": 99,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "06897c2b",
+          "nome": "Medico",
+          "valor": 500,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1a7cf586",
+          "nome": "Edmar",
+          "valor": 219.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "0bc2828d",
+          "nome": "Mercado",
+          "valor": 500,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "fe2b28f9",
+          "nome": "Mara",
+          "valor": 100,
+          "parcela": {
+            "atual": 3,
+            "total": 3
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "81801082",
+          "nome": "Ração+Areia",
+          "valor": 150,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ede53f57",
+          "nome": "Ksinha",
+          "valor": 40,
+          "parcela": null,
+          "nota": "data: 01/04/2027",
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-09-B",
+      "mes": 9,
+      "ano": 2026,
+      "quinzena": "B",
+      "dataInicio": "2026-09-20",
+      "label": "20/09 a 05/10",
+      "entrada": 4120,
+      "items": [
+        {
+          "id": "5f850980",
+          "nome": "Elektro",
+          "valor": 240,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "42f0dbe9",
+          "nome": "Cartão",
+          "valor": 230,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "7aa761bd",
+          "nome": "Sobrancelha",
+          "valor": 480,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1f5b53b2",
+          "nome": "samae",
+          "valor": 50,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "447e9c56",
+          "nome": "APPLE",
+          "valor": 270,
+          "parcela": {
+            "atual": 5,
+            "total": 10
+          },
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "d2ed4dbb",
+          "nome": "Mercado",
+          "valor": 350,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "fd8e5367",
+          "nome": "Claro",
+          "valor": 140,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "980eb817",
+          "nome": "Forrinho",
+          "valor": 480,
+          "parcela": null,
+          "nota": "Renato",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "39a79e5f",
+          "nome": "Ultrassom",
+          "valor": 160,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "824a21fe",
+          "nome": "Moto",
+          "valor": 1081,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "473f851a",
+          "nome": "Areia",
+          "valor": 110,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "d8c63497",
+          "nome": "Ge 2",
+          "valor": 100,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "1cb5523e",
+          "nome": "Rifa",
+          "valor": 20,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-A",
+      "mes": 10,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-10-05",
+      "label": "05/10 a 20/10",
+      "entrada": 4045,
+      "items": [
+        {
+          "id": "cd00fdaf",
+          "nome": "medicação",
+          "valor": 716,
+          "parcela": null,
+          "nota": "TG e wolverine",
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "bcdd6cf9",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "9810959e",
+          "nome": "Claude",
+          "valor": 120,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "603ea34e",
+          "nome": "Netflix",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "a677b7d7",
+          "nome": "Exames",
+          "valor": 715,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "95261ab9",
+          "nome": "Claro",
+          "valor": 135,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "6f7f3610",
+          "nome": "Tenis",
+          "valor": 186,
+          "parcela": {
+            "atual": 8,
+            "total": 10
+          },
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "f9374b05",
+          "nome": "Copo",
+          "valor": 75,
+          "parcela": {
+            "atual": 8,
+            "total": 8
+          },
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "0bf5ba6f",
+          "nome": "Re Cartão",
+          "valor": 480,
+          "parcela": {
+            "atual": 2,
+            "total": 3
+          },
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "57cc4a59",
+          "nome": "Perfume",
+          "valor": 99,
+          "parcela": {
+            "atual": 3,
+            "total": 10
+          },
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "2f3e93c6",
+          "nome": "Edmar",
+          "valor": 219.9,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "368c993f",
+          "nome": "Mercado",
+          "valor": 350,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "baf09ecb",
+          "nome": "Ração+Areia",
+          "valor": 150,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "2c2b1a89",
+          "nome": "Ksinha",
+          "valor": 40,
+          "parcela": null,
+          "nota": "data: 01/04/2027",
+          "pago": false,
+          "recorrente": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-B",
+      "mes": 10,
+      "ano": 2026,
+      "quinzena": "B",
+      "dataInicio": "2026-10-20",
+      "label": "20/10 a 05/11",
+      "entrada": 4050,
+      "items": [
+        {
+          "id": "37c58d79",
+          "nome": "Cartão",
+          "valor": 230,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "95674962",
+          "nome": "Val",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "391bcb37",
+          "nome": "APPLE",
+          "valor": 270,
+          "parcela": {
+            "atual": 6,
+            "total": 10
+          },
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "b821f2fe",
+          "nome": "Mercado",
+          "valor": 300,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "50e6bd5b",
+          "nome": "Claro",
+          "valor": 132,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "a39995fa",
+          "nome": "Moto",
+          "valor": 1081,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "57b984b5",
+          "nome": "Forro",
+          "valor": 2500,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
+          "id": "e27d082a",
+          "nome": "Areia Ração",
+          "valor": 160,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        }
+      ]
+    }
+  ]
+}
