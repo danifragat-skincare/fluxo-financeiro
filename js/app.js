@@ -117,7 +117,15 @@ async function doSync() {
   if (!token) return;
   setSyncIndicator("syncing");
   try {
-    const sha = await sync.pushRemote(token, appData, store.getSha());
+    let baseSha = store.getSha();
+    if (!baseSha) {
+      // primeira sincronização deste aparelho: precisa saber a versão atual
+      // do arquivo no GitHub antes de poder salvar por cima dela
+      const remote = await sync.fetchRemote(token);
+      baseSha = remote.sha || null;
+      if (baseSha) store.setSha(baseSha);
+    }
+    const sha = await sync.pushRemote(token, appData, baseSha);
     store.setSha(sha);
     store.setDirty(false);
     setSyncIndicator("synced");
@@ -140,7 +148,7 @@ async function doSync() {
       }
     } else {
       setSyncIndicator("error");
-      showToast("Não consegui sincronizar agora. Vou tentar de novo em breve.");
+      showToast("Não consegui sincronizar: " + (e.message || "erro desconhecido"));
     }
   }
 }
