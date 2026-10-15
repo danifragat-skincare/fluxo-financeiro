@@ -58,7 +58,9 @@ function periodTotals(period) {
     totalDespesas,
     pago,
     falta: totalDespesas - pago,
-    saldo: entrada - totalDespesas,
+    // saldo = o que sobra de verdade agora na mão, considerando só o que já foi pago
+    saldo: entrada - pago,
+    saldoPrevisto: entrada - totalDespesas,
   };
 }
 
@@ -228,6 +230,7 @@ function render() {
   const saldoEl = el("saldo-valor");
   saldoEl.textContent = money(totals.saldo);
   saldoEl.classList.toggle("negativo", totals.saldo < 0);
+  el("saldo-previsto").textContent = `previsto após pagar tudo: ${money(totals.saldoPrevisto)}`;
 
   el("stat-entrada").textContent = money(totals.entrada);
   el("stat-pago").textContent = money(totals.pago);
@@ -618,7 +621,7 @@ function openPeriodsModal() {
     const t = periodTotals(p);
     const li = document.createElement("li");
     li.style.cursor = "pointer";
-    li.innerHTML = `<span class="rec-nome">${p.label}${idx === currentIndex ? " ·" : ""}</span><span class="rec-valor">${money(t.saldo)}</span>`;
+    li.innerHTML = `<span class="rec-nome">${p.label}${idx === currentIndex ? " ·" : ""}</span><span class="rec-valor">${money(t.saldoPrevisto)}</span>`;
     li.addEventListener("click", () => {
       currentIndex = idx;
       periodsModalEl.hidden = true;

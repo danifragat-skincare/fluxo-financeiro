@@ -132,6 +132,12 @@ input { font-family: inherit; }
   letter-spacing: -0.5px;
 }
 .saldo-valor.negativo { color: #FBD8CC; }
+.saldo-previsto {
+  display: block;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.72);
+  margin-top: 2px;
+}
 
 .sync-status {
   position: absolute;
