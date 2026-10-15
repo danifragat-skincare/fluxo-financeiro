@@ -2752,15 +2752,6 @@
           "recorrente": false
         },
         {
-          "id": "bcdd6cf9",
-          "nome": "Unha",
-          "valor": 170,
-          "parcela": null,
-          "nota": null,
-          "pago": false,
-          "recorrente": false
-        },
-        {
           "id": "9810959e",
           "nome": "Claude",
           "valor": 120,
