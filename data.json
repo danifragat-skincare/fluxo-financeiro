@@ -2879,7 +2879,7 @@
           "valor": 170,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
