@@ -2743,15 +2743,6 @@
       "entrada": 4045,
       "items": [
         {
-          "id": "cd00fdaf",
-          "nome": "medicação",
-          "valor": 716,
-          "parcela": null,
-          "nota": "TG e wolverine",
-          "pago": false,
-          "recorrente": false
-        },
-        {
           "id": "9810959e",
           "nome": "Claude",
           "valor": 120,
