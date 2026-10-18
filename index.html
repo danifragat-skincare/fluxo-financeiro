@@ -66,6 +66,11 @@
     </button>
   </nav>
 
+  <!-- ===== Orçamentos por categoria ===== -->
+  <section id="orcamentos-section" class="orcamentos-section" hidden>
+    <ul id="orcamentos-list" class="orcamentos-list"></ul>
+  </section>
+
   <!-- ===== Lista de contas (estilo livro-razão) ===== -->
   <main class="ledger" id="ledger">
     <div class="ledger-head">
@@ -205,6 +210,13 @@
       <p class="hint">Essas contas entram automaticamente quando você abre uma nova quinzena.</p>
       <ul id="settings-recorrentes-list" class="recorrentes-list recorrentes-list-edit"></ul>
       <button type="button" id="btn-add-recorrente" class="link-btn">+ Adicionar conta fixa</button>
+    </section>
+
+    <section class="settings-section">
+      <h3>Orçamentos por categoria</h3>
+      <p class="hint">Reserve um valor pra categorias como Mercado ou Combustível. Toda conta que você anotar na quinzena com esse mesmo nome é abatida automaticamente do valor reservado.</p>
+      <ul id="settings-orcamentos-list" class="recorrentes-list recorrentes-list-edit"></ul>
+      <button type="button" id="btn-add-orcamento" class="link-btn">+ Adicionar orçamento</button>
     </section>
 
     <div class="modal-actions">

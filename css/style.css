@@ -205,6 +205,49 @@ input { font-family: inherit; }
   cursor: pointer;
 }
 
+/* ---------- Orçamentos por categoria ---------- */
+.orcamentos-section {
+  padding: 2px 18px 6px;
+}
+.orcamentos-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.orcamento-item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-s);
+  padding: 9px 12px;
+}
+.orcamento-top {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 7px;
+}
+.orcamento-nome { font-weight: 600; font-size: 0.92rem; }
+.orcamento-valores { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 0.8rem; }
+.orcamento-valores strong { color: var(--ink); font-weight: 600; }
+.orcamento-bar {
+  height: 6px;
+  border-radius: 4px;
+  background: var(--surface-2);
+  overflow: hidden;
+}
+.orcamento-bar span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 4px;
+}
+.orcamento-item.over .orcamento-bar span { background: var(--danger); }
+.orcamento-item.over .orcamento-valores strong { color: var(--danger); }
+.orcamento-item.warn .orcamento-bar span { background: #C99A3A; }
+
 /* ---------- Ledger (lista de contas) ---------- */
 .ledger {
   flex: 1;

@@ -64,6 +64,24 @@ function periodTotals(period) {
   };
 }
 
+/** Pra cada orçamento definido (ex: "Mercado"), soma todas as contas desta
+ *  quinzena com o mesmo nome (sem diferenciar maiúsculas/acentuação de caixa)
+ *  e calcula quanto ainda resta do valor reservado. */
+function computeOrcamentos(period) {
+  return (appData.orcamentos || []).map((orc) => {
+    const key = orc.nome.trim().toLowerCase();
+    const gasto = period.items
+      .filter((it) => it.nome.trim().toLowerCase() === key)
+      .reduce((sum, it) => sum + (it.valor || 0), 0);
+    return {
+      ...orc,
+      gasto,
+      restante: orc.valor - gasto,
+      pct: orc.valor > 0 ? Math.min(100, Math.round((gasto / orc.valor) * 100)) : 0,
+    };
+  });
+}
+
 function deriveNextPeriod(last) {
   let mes = last.mes;
   let ano = last.ano;
@@ -195,6 +213,8 @@ async function initialLoad() {
     }
   }
 
+  if (!appData.orcamentos) appData.orcamentos = [];
+
   if (!appData.periods || appData.periods.length === 0) {
     const first = {
       id: `${new Date().getFullYear()}-${pad(new Date().getMonth() + 1)}-A`,
@@ -245,6 +265,7 @@ function render() {
   el("btn-new-period").hidden = !isLast;
 
   renderItems(period);
+  renderOrcamentos(period);
   setSyncIndicator(el("sync-status").dataset.state || (store.isDirty() ? "pending" : "synced"));
 }
 
@@ -313,6 +334,32 @@ function renderItems(period) {
     li.appendChild(valor);
 
     li.addEventListener("click", () => openItemModal(it.id));
+    list.appendChild(li);
+  }
+}
+
+function renderOrcamentos(period) {
+  const section = el("orcamentos-section");
+  const list = el("orcamentos-list");
+  const orcs = computeOrcamentos(period);
+
+  if (orcs.length === 0) {
+    section.hidden = true;
+    return;
+  }
+  section.hidden = false;
+  list.innerHTML = "";
+
+  for (const o of orcs) {
+    const li = document.createElement("li");
+    li.className = "orcamento-item" + (o.restante < 0 ? " over" : o.pct >= 80 ? " warn" : "");
+    const restanteTxt = o.restante < 0 ? `estourou em ${money(Math.abs(o.restante))}` : `${money(o.restante)} restante`;
+    li.innerHTML = `
+      <div class="orcamento-top">
+        <span class="orcamento-nome">${o.nome}</span>
+        <span class="orcamento-valores">${money(o.gasto)} de ${money(o.valor)} · <strong>${restanteTxt}</strong></span>
+      </div>
+      <div class="orcamento-bar"><span style="width:${o.pct}%"></span></div>`;
     list.appendChild(li);
   }
 }
@@ -512,6 +559,7 @@ function openSettingsModal() {
   el("f-token").value = store.getToken();
   updateSyncDetail();
   renderRecorrentesSettings();
+  renderOrcamentosSettings();
   el("modal-settings").hidden = false;
 }
 
@@ -586,6 +634,45 @@ function renderRecorrentesSettings() {
 function addRecorrente() {
   appData.recorrentes.push({ id: uid(), nome: "Nova conta fixa", valor: 0, ativo: true });
   renderRecorrentesSettings();
+  markDirtyAndSync();
+}
+
+function renderOrcamentosSettings() {
+  const list = el("settings-orcamentos-list");
+  list.innerHTML = "";
+  for (const o of appData.orcamentos || []) {
+    const li = document.createElement("li");
+    li.innerHTML = `
+      <span class="rec-edit-row">
+        <input type="text" class="rec-nome-input" data-act="nome" data-id="${o.id}" value="${o.nome.replace(/"/g, "&quot;")}" placeholder="Ex: Mercado" />
+        <input type="number" step="0.01" class="rec-valor-input" data-act="valor" data-id="${o.id}" value="${o.valor}" placeholder="Reservado" />
+      </span>
+      <button type="button" class="rec-del-btn" data-act="del" data-id="${o.id}" aria-label="Remover">✕</button>`;
+    list.appendChild(li);
+  }
+
+  list.onchange = (ev) => {
+    const { act, id } = ev.target.dataset;
+    const o = appData.orcamentos.find((x) => x.id === id);
+    if (!o) return;
+    if (act === "nome") o.nome = ev.target.value;
+    if (act === "valor") o.valor = toNum(ev.target.value) || 0;
+    render();
+    markDirtyAndSync();
+  };
+  list.onclick = (ev) => {
+    const btn = ev.target.closest("[data-act='del']");
+    if (!btn) return;
+    appData.orcamentos = appData.orcamentos.filter((x) => x.id !== btn.dataset.id);
+    renderOrcamentosSettings();
+    render();
+    markDirtyAndSync();
+  };
+}
+
+function addOrcamento() {
+  appData.orcamentos.push({ id: uid(), nome: "", valor: 0 });
+  renderOrcamentosSettings();
   markDirtyAndSync();
 }
 
@@ -675,6 +762,7 @@ function wireEvents() {
     showToast(store.isDirty() ? "Não consegui sincronizar." : "Sincronizado!");
   });
   el("btn-add-recorrente").addEventListener("click", addRecorrente);
+  el("btn-add-orcamento").addEventListener("click", addOrcamento);
 
   el("btn-how-token").addEventListener("click", () => (el("modal-token-help").hidden = false));
   el("btn-close-token-help").addEventListener("click", () => (el("modal-token-help").hidden = true));
