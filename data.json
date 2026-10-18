@@ -2895,15 +2895,6 @@
           "recorrente": false
         },
         {
-          "id": "b821f2fe",
-          "nome": "Mercado",
-          "valor": 500,
-          "parcela": null,
-          "nota": null,
-          "pago": true,
-          "recorrente": false
-        },
-        {
           "id": "50e6bd5b",
           "nome": "Claro",
           "valor": 132,
