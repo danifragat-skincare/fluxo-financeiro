@@ -2862,15 +2862,15 @@
       "quinzena": "B",
       "dataInicio": "2026-10-20",
       "label": "20/10 a 05/11",
-      "entrada": 6050,
+      "entrada": 6150,
       "items": [
         {
           "id": "37c58d79",
           "nome": "Cartão",
-          "valor": 230,
+          "valor": 248.46,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -2915,7 +2915,7 @@
         {
           "id": "a39995fa",
           "nome": "Moto",
-          "valor": 1081,
+          "valor": 1062,
           "parcela": null,
           "nota": null,
           "pago": false,
@@ -2932,14 +2932,78 @@
         },
         {
           "id": "e27d082a",
-          "nome": "Areia Ração",
-          "valor": 160,
+          "nome": "Areia",
+          "valor": 96.99,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "8b60c15e",
+          "nome": "Seringas",
+          "valor": 58.88,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "a34875a0",
+          "nome": "Exame de sangue",
+          "valor": 270,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "63fa977d",
+          "nome": "Gasolina",
+          "valor": 30,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "6ac630ea",
+          "nome": "Pé da máquina",
+          "valor": 47.42,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "3e307a29",
+          "nome": "Almoco",
+          "valor": 45.8,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "d5637919",
+          "nome": "Racao",
+          "valor": 65,
           "parcela": null,
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "a1102ef9",
+          "nome": "Lanche",
+          "valor": 58.73,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
-  ]
+  ],
+  "orcamentos": []
 }
