@@ -2,7 +2,7 @@
 // mais rápido e funcionar offline para visualização. Os dados em si vêm
 // sempre da rede quando disponível (GitHub API ou data.json).
 
-const CACHE = "meu-fluxo-v1";
+const CACHE = "meu-fluxo-v2";
 const SHELL = [
   "./",
   "./index.html",
@@ -45,16 +45,14 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // esqueleto do app: cache primeiro, atualiza em segundo plano
+  // esqueleto do app: tenta sempre a rede primeiro (pra nunca travar numa
+  // versão antiga), e só usa o cache se estiver offline
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      const network = fetch(event.request)
-        .then((res) => {
-          caches.open(CACHE).then((c) => c.put(event.request, res.clone()));
-          return res;
-        })
-        .catch(() => cached);
-      return cached || network;
-    })
+    fetch(event.request)
+      .then((res) => {
+        caches.open(CACHE).then((c) => c.put(event.request, res.clone()));
+        return res;
+      })
+      .catch(() => caches.match(event.request))
   );
 });
