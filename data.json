@@ -2992,6 +2992,123 @@
           "nota": null,
           "pago": true,
           "recorrente": false
+        },
+        {
+          "id": "251d6c1a",
+          "nome": "Tiele personal",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "156d663c",
+          "nome": "Mercado",
+          "valor": 37.58,
+          "parcela": null,
+          "nota": "marmita",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "c9de3d30",
+          "nome": "Skincare",
+          "valor": 169.9,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "38d4b0b5",
+          "nome": "mobidick",
+          "valor": 36,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "c41fbfff",
+          "nome": "Roupa",
+          "valor": 55.98,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "383d4293",
+          "nome": "mercado",
+          "valor": 7.99,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "ce7c9eec",
+          "nome": "shoping café",
+          "valor": 27.89,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "7cc30ebe",
+          "nome": "mercado",
+          "valor": 102.1,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "c0cb5634",
+          "nome": "aluguel fantasia",
+          "valor": 100,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "0b67bdce",
+          "nome": "mercado",
+          "valor": 15,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "5ad70e05",
+          "nome": "mercado",
+          "valor": 58.73,
+          "parcela": null,
+          "nota": "lanche",
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "62236abd",
+          "nome": "ifood descontos",
+          "valor": 7.95,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
+        },
+        {
+          "id": "7efa3310",
+          "nome": "cigarro",
+          "valor": 17.25,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
