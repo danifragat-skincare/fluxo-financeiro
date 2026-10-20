@@ -2891,7 +2891,7 @@
             "total": 10
           },
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -2909,7 +2909,7 @@
           "valor": 1062,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
