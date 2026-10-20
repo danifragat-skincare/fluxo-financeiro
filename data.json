@@ -3145,6 +3145,15 @@
           "nota": null,
           "pago": true,
           "recorrente": false
+        },
+        {
+          "id": "159333c4",
+          "nome": "Edredon",
+          "valor": 156.47,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
