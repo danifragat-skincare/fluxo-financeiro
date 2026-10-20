@@ -3127,6 +3127,15 @@
           "nota": null,
           "pago": true,
           "recorrente": false
+        },
+        {
+          "id": "e3b526e4",
+          "nome": "cigarro",
+          "valor": 29.25,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
