@@ -3118,6 +3118,15 @@
           "nota": null,
           "pago": true,
           "recorrente": false
+        },
+        {
+          "id": "f9929c0f",
+          "nome": "Mercado",
+          "valor": 103.57,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
