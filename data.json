@@ -2914,11 +2914,11 @@
         },
         {
           "id": "57b984b5",
-          "nome": "Forro",
-          "valor": 2500,
+          "nome": "Maquina de Lavar",
+          "valor": 1839,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
