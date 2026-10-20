@@ -3136,6 +3136,15 @@
           "nota": null,
           "pago": true,
           "recorrente": false
+        },
+        {
+          "id": "3b8d9064",
+          "nome": "HBO ASSINATURA",
+          "valor": 38.16,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
