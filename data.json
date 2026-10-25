@@ -2981,7 +2981,7 @@
           "valor": 65,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
