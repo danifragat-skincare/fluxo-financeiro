@@ -3210,6 +3210,15 @@
           "nota": null,
           "pago": false,
           "recorrente": true
+        },
+        {
+          "id": "62cd3cdd",
+          "nome": "Netflix",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
