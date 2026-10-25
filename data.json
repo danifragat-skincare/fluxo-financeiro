@@ -51,6 +51,12 @@
       "nome": "Agua",
       "valor": 50.86,
       "ativo": true
+    },
+    {
+      "id": "6057520c",
+      "nome": "Ração e areia",
+      "valor": 165,
+      "ativo": true
     }
   ],
   "periods": [
@@ -3264,6 +3270,15 @@
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "1bbcee55",
+          "nome": "Ração e areia",
+          "valor": 165,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
         }
       ]
     }
