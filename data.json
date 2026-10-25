@@ -3182,15 +3182,6 @@
       "entrada": 4042,
       "items": [
         {
-          "id": "66afadb5",
-          "nome": "Cartão",
-          "valor": 230,
-          "parcela": null,
-          "nota": null,
-          "pago": false,
-          "recorrente": true
-        },
-        {
           "id": "90293587",
           "nome": "Edmar",
           "valor": 219.9,
