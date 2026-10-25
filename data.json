@@ -3165,6 +3165,53 @@
           "recorrente": false
         }
       ]
+    },
+    {
+      "id": "2026-11-A",
+      "mes": 11,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-11-05",
+      "label": "05/11 a 20/11",
+      "entrada": 6042,
+      "items": [
+        {
+          "id": "66afadb5",
+          "nome": "Cartão",
+          "valor": 230,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
+        },
+        {
+          "id": "90293587",
+          "nome": "Edmar",
+          "valor": 219.9,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
+        },
+        {
+          "id": "562b1295",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
+        },
+        {
+          "id": "9449d9d0",
+          "nome": "Claro",
+          "valor": 132,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
+        }
+      ]
     }
   ],
   "orcamentos": [
