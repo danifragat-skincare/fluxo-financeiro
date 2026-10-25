@@ -3228,6 +3228,18 @@
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "8f900c7f",
+          "nome": "Tênis",
+          "valor": 186,
+          "parcela": {
+            "atual": 9,
+            "total": 10
+          },
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
