@@ -3279,6 +3279,15 @@
           "nota": null,
           "pago": false,
           "recorrente": true
+        },
+        {
+          "id": "6ea594b0",
+          "nome": "Ksinha",
+          "valor": 40,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
