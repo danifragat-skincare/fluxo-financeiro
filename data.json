@@ -3301,11 +3301,5 @@
       ]
     }
   ],
-  "orcamentos": [
-    {
-      "id": "9f929faa",
-      "nome": "Mercado",
-      "valor": 1000
-    }
-  ]
+  "orcamentos": []
 }
