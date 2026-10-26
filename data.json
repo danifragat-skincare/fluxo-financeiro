@@ -8,55 +8,64 @@
       "id": "1e11e3d9",
       "nome": "Moto",
       "valor": 1081,
-      "ativo": true
+      "ativo": true,
+      "frequencia": "quinzenal"
     },
     {
       "id": "1253cade",
       "nome": "Padaria",
       "valor": 392,
-      "ativo": true
+      "ativo": true,
+      "frequencia": "quinzenal"
     },
     {
       "id": "98567452",
       "nome": "Elektro",
       "valor": 240,
-      "ativo": true
+      "ativo": true,
+      "frequencia": "quinzenal"
     },
     {
       "id": "9b0b4b7a",
       "nome": "Cartão",
       "valor": 230,
-      "ativo": true
+      "ativo": true,
+      "frequencia": "quinzenal"
     },
     {
       "id": "94a3b88c",
       "nome": "Edmar",
       "valor": 219.9,
-      "ativo": true
+      "ativo": true,
+      "frequencia": "quinzenal"
     },
     {
       "id": "956872d7",
       "nome": "Unha",
       "valor": 170,
-      "ativo": true
+      "ativo": true,
+      "frequencia": "quinzenal"
     },
     {
       "id": "b304e0e4",
       "nome": "Claro",
       "valor": 132,
-      "ativo": true
+      "ativo": true,
+      "frequencia": "quinzenal"
     },
     {
       "id": "0fd57cf5",
       "nome": "Agua",
       "valor": 50.86,
-      "ativo": true
+      "ativo": true,
+      "frequencia": "quinzenal"
     },
     {
       "id": "6057520c",
       "nome": "Ração e areia",
       "valor": 165,
-      "ativo": true
+      "ativo": true,
+      "frequencia": "quinzenal"
     }
   ],
   "periods": [
