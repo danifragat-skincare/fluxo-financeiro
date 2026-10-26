@@ -214,6 +214,10 @@ async function initialLoad() {
   }
 
   if (!appData.orcamentos) appData.orcamentos = [];
+  for (const r of appData.recorrentes || []) {
+    if (!r.frequencia) r.frequencia = "quinzenal";
+    if (r.frequencia === "mensal" && !r.quinzenaMensal) r.quinzenaMensal = "A";
+  }
 
   if (!appData.periods || appData.periods.length === 0) {
     const first = {
@@ -482,7 +486,9 @@ function openNewPeriodModal() {
   const list = el("np-recorrentes-list");
   list.innerHTML = "";
 
-  const fixas = (appData.recorrentes || []).filter((r) => r.ativo);
+  const fixas = (appData.recorrentes || []).filter(
+    (r) => r.ativo && (r.frequencia !== "mensal" || r.quinzenaMensal === next.quinzena)
+  );
   for (const r of fixas) {
     const li = document.createElement("li");
     li.innerHTML = `
@@ -601,15 +607,32 @@ function renderRecorrentesSettings() {
   list.innerHTML = "";
   for (const r of appData.recorrentes || []) {
     const li = document.createElement("li");
+    li.className = "rec-edit-item";
     li.innerHTML = `
-      <label style="display:flex;align-items:center;">
-        <input type="checkbox" ${r.ativo ? "checked" : ""} data-act="toggle" data-id="${r.id}" style="width:18px;height:18px;margin-right:10px;accent-color:var(--accent);" />
-      </label>
-      <span class="rec-edit-row">
-        <input type="text" class="rec-nome-input" data-act="nome" data-id="${r.id}" value="${r.nome.replace(/"/g, "&quot;")}" />
-        <input type="number" step="0.01" class="rec-valor-input" data-act="valor" data-id="${r.id}" value="${r.valor}" />
-      </span>
-      <button type="button" class="rec-del-btn" data-act="del" data-id="${r.id}" aria-label="Remover">✕</button>`;
+      <div class="rec-edit-top">
+        <label style="display:flex;align-items:center;">
+          <input type="checkbox" ${r.ativo ? "checked" : ""} data-act="toggle" data-id="${r.id}" style="width:18px;height:18px;margin-right:10px;accent-color:var(--accent);" />
+        </label>
+        <span class="rec-edit-row">
+          <input type="text" class="rec-nome-input" data-act="nome" data-id="${r.id}" value="${r.nome.replace(/"/g, "&quot;")}" />
+          <input type="number" step="0.01" class="rec-valor-input" data-act="valor" data-id="${r.id}" value="${r.valor}" />
+        </span>
+        <button type="button" class="rec-del-btn" data-act="del" data-id="${r.id}" aria-label="Remover">✕</button>
+      </div>
+      <div class="rec-freq-row">
+        <select data-act="freq" data-id="${r.id}">
+          <option value="quinzenal" ${r.frequencia !== "mensal" ? "selected" : ""}>Repete a cada quinzena (15 dias)</option>
+          <option value="mensal" ${r.frequencia === "mensal" ? "selected" : ""}>Repete 1x por mês (30 dias)</option>
+        </select>
+        ${
+          r.frequencia === "mensal"
+            ? `<select data-act="quinzenaMensal" data-id="${r.id}">
+                <option value="A" ${r.quinzenaMensal !== "B" ? "selected" : ""}>Na quinzena do dia 05</option>
+                <option value="B" ${r.quinzenaMensal === "B" ? "selected" : ""}>Na quinzena do dia 20</option>
+              </select>`
+            : ""
+        }
+      </div>`;
     list.appendChild(li);
   }
 
@@ -620,6 +643,12 @@ function renderRecorrentesSettings() {
     if (act === "toggle") r.ativo = ev.target.checked;
     if (act === "nome") r.nome = ev.target.value;
     if (act === "valor") r.valor = toNum(ev.target.value) || 0;
+    if (act === "freq") {
+      r.frequencia = ev.target.value;
+      if (r.frequencia === "mensal" && !r.quinzenaMensal) r.quinzenaMensal = "A";
+      renderRecorrentesSettings();
+    }
+    if (act === "quinzenaMensal") r.quinzenaMensal = ev.target.value;
     markDirtyAndSync();
   };
   list.onclick = (ev) => {
@@ -632,7 +661,7 @@ function renderRecorrentesSettings() {
 }
 
 function addRecorrente() {
-  appData.recorrentes.push({ id: uid(), nome: "Nova conta fixa", valor: 0, ativo: true });
+  appData.recorrentes.push({ id: uid(), nome: "Nova conta fixa", valor: 0, ativo: true, frequencia: "quinzenal" });
   renderRecorrentesSettings();
   markDirtyAndSync();
 }

@@ -507,6 +507,24 @@ input { font-family: inherit; }
 .rec-edit-row { display: flex; gap: 8px; flex: 1; }
 .rec-edit-row .rec-nome-input { flex: 1.4; }
 .rec-edit-row .rec-valor-input { flex: 1; }
+.recorrentes-list-edit li.rec-edit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+}
+.rec-edit-top { display: flex; align-items: center; gap: 10px; }
+.rec-freq-row { display: flex; flex-wrap: wrap; gap: 6px; padding-left: 28px; }
+.rec-freq-row select {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 5px 6px;
+  font-size: 0.76rem;
+  background: var(--bg);
+  color: var(--muted);
+  flex: 1 1 150px;
+  min-width: 0;
+}
 .rec-del-btn {
   background: none;
   border: none;
