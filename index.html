@@ -34,6 +34,7 @@
       <span class="saldo-label">Saldo atual</span>
       <span id="saldo-valor" class="saldo-valor">R$ 0,00</span>
       <span id="saldo-previsto" class="saldo-previsto"></span>
+      <span id="saldo-reserva" class="saldo-reserva" hidden></span>
       <span id="sync-status" class="sync-status" data-state="idle"></span>
     </div>
 
@@ -214,7 +215,7 @@
 
     <section class="settings-section">
       <h3>Orçamentos por categoria</h3>
-      <p class="hint">Reserve um valor pra categorias como Mercado ou Combustível. Toda conta que você anotar na quinzena com esse mesmo nome é abatida automaticamente do valor reservado.</p>
+      <p class="hint">Reserve um valor pra categorias como Mercado ou Combustível. Esse valor já é descontado do seu saldo principal (visão realista do que sobra livre), e toda conta que você anotar na quinzena com esse mesmo nome abate automaticamente do valor reservado.</p>
       <ul id="settings-orcamentos-list" class="recorrentes-list recorrentes-list-edit"></ul>
       <button type="button" id="btn-add-orcamento" class="link-btn">+ Adicionar orçamento</button>
     </section>

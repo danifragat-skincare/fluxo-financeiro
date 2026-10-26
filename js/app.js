@@ -53,13 +53,30 @@ function periodTotals(period) {
     if (it.pago) pago += v;
   }
   const entrada = period.entrada || 0;
+
+  // Quanto dos orçamentos (ex: Mercado) ainda está reservado mas ainda não
+  // foi de fato pago. Esse valor é descontado do saldo principal pra dar
+  // uma visão realista do que sobra livre pra gastar — o dinheiro do
+  // orçamento já está "comprometido" mesmo antes de ser lançado/pago.
+  let reservaPendente = 0;
+  for (const orc of appData.orcamentos || []) {
+    const key = (orc.nome || "").trim().toLowerCase();
+    if (!key) continue;
+    const pagoCategoria = period.items
+      .filter((it) => it.nome.trim().toLowerCase() === key && it.pago)
+      .reduce((sum, it) => sum + (it.valor || 0), 0);
+    reservaPendente += Math.max(0, (orc.valor || 0) - pagoCategoria);
+  }
+
   return {
     entrada,
     totalDespesas,
     pago,
     falta: totalDespesas - pago,
-    // saldo = o que sobra de verdade agora na mão, considerando só o que já foi pago
-    saldo: entrada - pago,
+    reservaPendente,
+    // saldo = o que sobra de verdade agora na mão: o que já foi pago some,
+    // e o que ainda está reservado nos orçamentos também já é descontado
+    saldo: entrada - pago - reservaPendente,
     saldoPrevisto: entrada - totalDespesas,
   };
 }
@@ -255,6 +272,13 @@ function render() {
   saldoEl.textContent = money(totals.saldo);
   saldoEl.classList.toggle("negativo", totals.saldo < 0);
   el("saldo-previsto").textContent = `previsto após pagar tudo: ${money(totals.saldoPrevisto)}`;
+  const reservaEl = el("saldo-reserva");
+  if (totals.reservaPendente > 0) {
+    reservaEl.hidden = false;
+    reservaEl.textContent = `já descontado ${money(totals.reservaPendente)} reservado em orçamentos`;
+  } else {
+    reservaEl.hidden = true;
+  }
 
   el("stat-entrada").textContent = money(totals.entrada);
   el("stat-pago").textContent = money(totals.pago);

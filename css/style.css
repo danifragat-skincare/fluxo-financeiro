@@ -138,6 +138,12 @@ input { font-family: inherit; }
   color: rgba(255,255,255,0.72);
   margin-top: 2px;
 }
+.saldo-reserva {
+  display: block;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.72);
+  margin-top: 1px;
+}
 
 .sync-status {
   position: absolute;
