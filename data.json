@@ -3297,6 +3297,15 @@
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "c2084ed5",
+          "nome": "Total pass",
+          "valor": 89.9,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
