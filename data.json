@@ -3306,6 +3306,15 @@
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "9417010f",
+          "nome": "Massagem",
+          "valor": 150,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
