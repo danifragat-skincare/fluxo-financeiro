@@ -3232,7 +3232,7 @@
           "valor": 120,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -3277,7 +3277,7 @@
           "valor": 165,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": true
         },
         {
