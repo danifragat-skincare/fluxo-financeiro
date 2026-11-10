@@ -3290,15 +3290,6 @@
           "recorrente": false
         },
         {
-          "id": "74081760",
-          "nome": "Forro",
-          "valor": 1500,
-          "parcela": null,
-          "nota": null,
-          "pago": false,
-          "recorrente": false
-        },
-        {
           "id": "c2084ed5",
           "nome": "Total pass",
           "valor": 89.9,
