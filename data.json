@@ -3293,6 +3293,15 @@
           "nota": null,
           "pago": true,
           "recorrente": false
+        },
+        {
+          "id": "0ef96969",
+          "nome": "DIFERENÇA",
+          "valor": 1600,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     },
