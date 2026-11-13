@@ -40,16 +40,16 @@
       "frequencia": "quinzenal"
     },
     {
-      "id": "0fd57cf5",
-      "nome": "Agua",
-      "valor": 50.86,
+      "id": "6057520c",
+      "nome": "Ração e areia",
+      "valor": 165,
       "ativo": true,
       "frequencia": "quinzenal"
     },
     {
-      "id": "6057520c",
-      "nome": "Ração e areia",
-      "valor": 165,
+      "id": "1735c378",
+      "nome": "Nova conta fixa",
+      "valor": 0,
       "ativo": true,
       "frequencia": "quinzenal"
     }
