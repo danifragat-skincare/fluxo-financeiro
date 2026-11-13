@@ -3370,6 +3370,15 @@
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "be26f5ee",
+          "nome": "Ar condicionado",
+          "valor": 3105,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
