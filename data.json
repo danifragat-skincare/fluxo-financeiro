@@ -49,9 +49,10 @@
     {
       "id": "1735c378",
       "nome": "Apple watch",
-      "valor": 0,
+      "valor": 270,
       "ativo": true,
-      "frequencia": "quinzenal"
+      "frequencia": "mensal",
+      "quinzenaMensal": "A"
     }
   ],
   "periods": [
