@@ -3308,6 +3308,35 @@
           "recorrente": false
         }
       ]
+    },
+    {
+      "id": "2026-11-B",
+      "mes": 11,
+      "ano": 2026,
+      "quinzena": "B",
+      "dataInicio": "2026-11-20",
+      "label": "20/11 a 05/12",
+      "entrada": 4042,
+      "items": [
+        {
+          "id": "e7bf3f49",
+          "nome": "Moto",
+          "valor": 1081,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
+        },
+        {
+          "id": "d3942423",
+          "nome": "Ração e areia",
+          "valor": 165,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
+        }
+      ]
     }
   ],
   "orcamentos": [
