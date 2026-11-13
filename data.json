@@ -3352,6 +3352,15 @@
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "f822d1b4",
+          "nome": "CHAT GPT",
+          "valor": 39,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
