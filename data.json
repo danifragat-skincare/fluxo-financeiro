@@ -3343,6 +3343,15 @@
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "771cd48e",
+          "nome": "HBO",
+          "valor": 38.16,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
