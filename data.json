@@ -3331,6 +3331,18 @@
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "43c2a98f",
+          "nome": "Apple watch",
+          "valor": 270,
+          "parcela": {
+            "atual": 7,
+            "total": 10
+          },
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
