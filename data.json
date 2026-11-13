@@ -12,20 +12,6 @@
       "frequencia": "quinzenal"
     },
     {
-      "id": "1253cade",
-      "nome": "Padaria",
-      "valor": 392,
-      "ativo": true,
-      "frequencia": "quinzenal"
-    },
-    {
-      "id": "98567452",
-      "nome": "Elektro",
-      "valor": 240,
-      "ativo": true,
-      "frequencia": "quinzenal"
-    },
-    {
       "id": "9b0b4b7a",
       "nome": "Cartão",
       "valor": 230,
