@@ -3370,6 +3370,15 @@
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "222759e6",
+          "nome": "Instalar ar condicionado",
+          "valor": 1150,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
