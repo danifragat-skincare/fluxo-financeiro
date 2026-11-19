@@ -3379,6 +3379,15 @@
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "2a7bdfb1",
+          "nome": "Consórcio",
+          "valor": 50,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
