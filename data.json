@@ -3397,6 +3397,15 @@
           "nota": null,
           "pago": true,
           "recorrente": false
+        },
+        {
+          "id": "d16905e8",
+          "nome": "Mercado",
+          "valor": 82.8,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
