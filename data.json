@@ -3388,6 +3388,15 @@
           "nota": null,
           "pago": false,
           "recorrente": false
+        },
+        {
+          "id": "10a4edcb",
+          "nome": "Tirzec",
+          "valor": 692,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
