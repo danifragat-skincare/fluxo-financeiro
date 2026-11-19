@@ -3388,15 +3388,6 @@
           "nota": null,
           "pago": false,
           "recorrente": false
-        },
-        {
-          "id": "0063abaa",
-          "nome": "Mercado",
-          "valor": 55,
-          "parcela": null,
-          "nota": null,
-          "pago": true,
-          "recorrente": false
         }
       ]
     }
