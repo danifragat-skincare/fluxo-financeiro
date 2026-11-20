@@ -3415,6 +3415,15 @@
           "nota": null,
           "pago": true,
           "recorrente": false
+        },
+        {
+          "id": "5640ac93",
+          "nome": "Cabelo",
+          "valor": 300,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
