@@ -3341,7 +3341,7 @@
             "total": 10
           },
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
