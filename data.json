@@ -3406,6 +3406,15 @@
           "nota": null,
           "pago": true,
           "recorrente": false
+        },
+        {
+          "id": "3f0ff80e",
+          "nome": "Roupa",
+          "valor": 177,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
