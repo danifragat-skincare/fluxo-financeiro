@@ -3333,15 +3333,6 @@
           "recorrente": true
         },
         {
-          "id": "0675f740",
-          "nome": "Forro",
-          "valor": 1800,
-          "parcela": null,
-          "nota": null,
-          "pago": false,
-          "recorrente": false
-        },
-        {
           "id": "43c2a98f",
           "nome": "Apple watch",
           "valor": 270,
