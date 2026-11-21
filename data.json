@@ -3410,10 +3410,10 @@
         {
           "id": "5640ac93",
           "nome": "Cabelo",
-          "valor": 300,
+          "valor": 332,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
