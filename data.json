@@ -3451,6 +3451,15 @@
           "nota": null,
           "pago": true,
           "recorrente": false
+        },
+        {
+          "id": "2dc1616f",
+          "nome": "Enfeites",
+          "valor": 348,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
