@@ -3460,6 +3460,15 @@
           "nota": null,
           "pago": true,
           "recorrente": false
+        },
+        {
+          "id": "a4094a5d",
+          "nome": "Mercado",
+          "valor": 23.97,
+          "parcela": null,
+          "nota": null,
+          "pago": true,
+          "recorrente": false
         }
       ]
     }
