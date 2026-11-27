@@ -3401,10 +3401,10 @@
         {
           "id": "473bc713",
           "nome": "tapete",
-          "valor": 250,
+          "valor": 96,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         }
       ]
