@@ -3408,6 +3408,62 @@
           "recorrente": false
         }
       ]
+    },
+    {
+      "id": "2026-12-A",
+      "mes": 12,
+      "ano": 2026,
+      "quinzena": "A",
+      "dataInicio": "2026-12-05",
+      "label": "05/12 a 20/12",
+      "entrada": 4042,
+      "items": [
+        {
+          "id": "35cf86c6",
+          "nome": "Cartão",
+          "valor": 230,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
+        },
+        {
+          "id": "c4d2b73c",
+          "nome": "Edmar",
+          "valor": 219.9,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
+        },
+        {
+          "id": "0555009e",
+          "nome": "Unha",
+          "valor": 170,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
+        },
+        {
+          "id": "893f9911",
+          "nome": "Claro",
+          "valor": 132,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
+        },
+        {
+          "id": "ae87bdcb",
+          "nome": "Ração e areia",
+          "valor": 165,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": true
+        }
+      ]
     }
   ],
   "orcamentos": [
