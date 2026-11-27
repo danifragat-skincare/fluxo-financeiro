@@ -3462,6 +3462,15 @@
           "nota": null,
           "pago": false,
           "recorrente": true
+        },
+        {
+          "id": "b9de9c24",
+          "nome": "Ressonancia e Densitometria",
+          "valor": 1400,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
         }
       ]
     }
