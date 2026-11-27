@@ -3320,7 +3320,7 @@
           "valor": 1081,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": true
         },
         {
