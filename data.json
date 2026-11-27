@@ -3320,7 +3320,7 @@
           "valor": 1081,
           "parcela": null,
           "nota": null,
-          "pago": true,
+          "pago": false,
           "recorrente": true
         },
         {
@@ -3333,6 +3333,15 @@
           "recorrente": true
         },
         {
+          "id": "0675f740",
+          "nome": "Forro",
+          "valor": 1800,
+          "parcela": null,
+          "nota": null,
+          "pago": false,
+          "recorrente": false
+        },
+        {
           "id": "43c2a98f",
           "nome": "Apple watch",
           "valor": 270,
@@ -3341,7 +3350,7 @@
             "total": 10
           },
           "nota": null,
-          "pago": true,
+          "pago": false,
           "recorrente": false
         },
         {
@@ -3356,10 +3365,10 @@
         {
           "id": "f822d1b4",
           "nome": "CHAT GPT",
-          "valor": 39.9,
+          "valor": 39,
           "parcela": null,
           "nota": null,
-          "pago": true,
+          "pago": false,
           "recorrente": false
         },
         {
@@ -3381,102 +3390,21 @@
           "recorrente": false
         },
         {
-          "id": "10a4edcb",
-          "nome": "Tirzec",
-          "valor": 692,
-          "parcela": null,
-          "nota": null,
-          "pago": true,
-          "recorrente": false
-        },
-        {
-          "id": "d16905e8",
-          "nome": "Mercado",
-          "valor": 82.8,
-          "parcela": null,
-          "nota": null,
-          "pago": true,
-          "recorrente": false
-        },
-        {
-          "id": "3f0ff80e",
-          "nome": "Roupa",
-          "valor": 177,
-          "parcela": null,
-          "nota": null,
-          "pago": true,
-          "recorrente": false
-        },
-        {
-          "id": "5640ac93",
-          "nome": "Cabelo",
-          "valor": 332,
-          "parcela": null,
-          "nota": null,
-          "pago": true,
-          "recorrente": false
-        },
-        {
-          "id": "d50c3c2b",
-          "nome": "Tapete",
-          "valor": 200,
+          "id": "d8a7e01f",
+          "nome": "cabelo",
+          "valor": 250,
           "parcela": null,
           "nota": null,
           "pago": false,
           "recorrente": false
         },
         {
-          "id": "8dc54114",
-          "nome": "Mercado",
-          "valor": 39.69,
-          "parcela": null,
-          "nota": "Marmita",
-          "pago": true,
-          "recorrente": false
-        },
-        {
-          "id": "e48d01f2",
-          "nome": "Escova",
-          "valor": 25,
+          "id": "473bc713",
+          "nome": "tapete",
+          "valor": 250,
           "parcela": null,
           "nota": null,
-          "pago": true,
-          "recorrente": false
-        },
-        {
-          "id": "e1e70ae8",
-          "nome": "Mercado",
-          "valor": 109.42,
-          "parcela": null,
-          "nota": null,
-          "pago": true,
-          "recorrente": false
-        },
-        {
-          "id": "2dc1616f",
-          "nome": "Enfeites",
-          "valor": 348,
-          "parcela": null,
-          "nota": null,
-          "pago": true,
-          "recorrente": false
-        },
-        {
-          "id": "a4094a5d",
-          "nome": "Mercado",
-          "valor": 23.97,
-          "parcela": null,
-          "nota": null,
-          "pago": true,
-          "recorrente": false
-        },
-        {
-          "id": "bbc6b340",
-          "nome": "Mercado",
-          "valor": 244,
-          "parcela": null,
-          "nota": null,
-          "pago": true,
+          "pago": false,
           "recorrente": false
         }
       ]
