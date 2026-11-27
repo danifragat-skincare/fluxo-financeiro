@@ -3333,15 +3333,6 @@
           "recorrente": true
         },
         {
-          "id": "0675f740",
-          "nome": "Forro",
-          "valor": 1800,
-          "parcela": null,
-          "nota": null,
-          "pago": false,
-          "recorrente": false
-        },
-        {
           "id": "43c2a98f",
           "nome": "Apple watch",
           "valor": 270,
@@ -3350,7 +3341,7 @@
             "total": 10
           },
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -3368,7 +3359,7 @@
           "valor": 39,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -3377,7 +3368,7 @@
           "valor": 1150,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
@@ -3392,10 +3383,10 @@
         {
           "id": "d8a7e01f",
           "nome": "cabelo",
-          "valor": 250,
+          "valor": 320,
           "parcela": null,
           "nota": null,
-          "pago": false,
+          "pago": true,
           "recorrente": false
         },
         {
